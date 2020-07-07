@@ -59,7 +59,7 @@ JVCare.KEY = "0A12B34C56D78E9F";
 
     async function deleteMessages(token, ids) {
         const postData = `type=delete&ajax_hash=${token}&${ids.map(id => 'tab_message[]=' + id).join('&')}`;
-        let errors = await (await fetch("http://www.jeuxvideo.com/forums/modal_del_message.php", {
+        let errors = await (await fetch("https://www.jeuxvideo.com/forums/modal_del_message.php", {
             method: "POST",
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             body: postData
