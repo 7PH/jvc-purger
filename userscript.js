@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Delete your posts from JVC
 // @author       You
-// @match        http://www.jeuxvideo.com/profil/*?mode=historique_forum*
+// @match        http*://www.jeuxvideo.com/profil/*?mode=historique_forum*
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
